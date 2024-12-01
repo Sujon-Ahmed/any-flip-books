@@ -22,15 +22,21 @@ iframe {
 }
 
  .iframe-mask {
-    width: 10%;
+    width: 24%;
     background-color: #444;
-    height: 49px;
+    height: 42px;
+    top: 5px;
     position: absolute;
     z-index: 100;
     left: 160px;
     border-bottom-left-radius: 4px;
   }
 
+@media (max-width: 1024px) {
+  .iframe-mask {
+    display: none;
+  }
+}
 @media (max-width: 900px) {
   .iframe-mask {
     display: none;
