@@ -159,10 +159,12 @@ p {
 
 
 #pills-tab li button {
-  color: white;
+  color: #000;
   z-index: 1000;
   margin-top: 20px;
   cursor: pointer;
+  background: #ddd;
+  margin: 10px;
 }
 
 #pills-tab li button.nav-link.active {
